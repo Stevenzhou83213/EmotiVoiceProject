@@ -3,7 +3,7 @@ import os
 
 def run_project():
     # 运行项目
-    os.system("streamlit run demo_page.py --server.port 5000 --logger.level debug")
+    os.system("streamlit run demo_page.py --server.port 5001 --logger.level debug")
 
 if __name__ == "__main__":
     run_project()
